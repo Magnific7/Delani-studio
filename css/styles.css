@@ -10,6 +10,7 @@
 .services{
   background-image: url("file:///home/wecode/Documents/studio%20project/images/s_image.jpg");
   color:white;
+  background-size: cover;
 }
 #logo{
   display: flex;
