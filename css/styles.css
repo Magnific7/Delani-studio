@@ -16,3 +16,11 @@
   display: flex;
   justify-content: space-around;
 }
+#row1{
+  justify-content: space-around;
+  display: flex;
+}
+#row2{
+  justify-content: space-around;
+  display: flex;
+}
