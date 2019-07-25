@@ -24,3 +24,14 @@
   justify-content: space-around;
   display: flex;
 }
+#EN{
+  justify-content: space-around;
+  display:flex;
+}
+#msg{
+ justify-content: space-around;
+}
+.row{
+  display:flex;
+  justify-content: space-around;
+}
