@@ -11,6 +11,15 @@
   text-align: center;
 }
 .services{
+  background-image: url("file:///home/wecode/Documents/studio%20project/images/s_image.jpg");
   color:white;
   text-align:center;
+}
+.do{
+  text-align: center;
+
+}
+#logo{
+  display: flex;
+  justify-content: space-around;
 }
