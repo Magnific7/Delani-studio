@@ -28,10 +28,32 @@
   justify-content: space-around;
   display:flex;
 }
-#msg{
+.message{
+  background-color: transparent;
+  background-image: url("file:///home/wecode/Documents/studio%20project/images/c_image.jpg");
  justify-content: space-around;
 }
-.row{
-  display:flex;
-  justify-content: space-around;
+.socials{
+  justify-items: space-between;
+  text-align: center;
+
+}
+input[type="text"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    outline: none;
+}
+input[type="email"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    outline: none;
+    color:white;
+}
+textarea[type="text"] {
+  background: transparent;
+  color: white;
+  resize: none;
+  border: solid 2px white;
 }
