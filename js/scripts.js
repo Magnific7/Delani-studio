@@ -32,18 +32,11 @@ $('#icon').click(function(){
       $('#product').toggle();
       $('#produc').toggle();
     });
+
+
+
+
+
+    
 });
 
-$(document).ready(function(){
-  $('#one').moseenter(function(){
-    $('#pp').mouseleave();
-    // $('#pp').fadeOut();
-  });
-});
-// $(document).ready(function(){
-//   $("form").submit(function(event){
-//     var hee = $("name").val();
-//     alert(hee+ " ");
-
-// });
-// });
