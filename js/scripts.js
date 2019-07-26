@@ -33,10 +33,27 @@ $('#icon').click(function(){
       $('#produc').toggle();
     });
 
+$(".ba").hide();
+$("#one").animate({
+  opacity:1
+});
+$('#one').hover(function(){
+  $(this).stop().animate({
+    opacity: .4},200);
+    $('.ba').fadeIn();
+  },
+function(){
+  $(this).stop.animate({
+    opacity: 1},500);
+    $(".ba").fadeOut();
+  });
+},
+  });
+});
 
 
 
 
-    
+
 });
 

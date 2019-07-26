@@ -89,3 +89,11 @@ left: 50%;
 ::placeholder{
   color:white;
 }
+.ba{
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width:70%;
+  height:80%;
+  position: absolute;
+}
