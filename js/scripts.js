@@ -1,7 +1,7 @@
 $(document).ready(function(){
 $("form").submit(function(event){
 var a = $("#name").val();
-alert(a+ "we have received your message. Thank you fro reaching out to us.");
+alert(a+ " we have received your message. Thank you fro reaching out to us.");
 });
 });
 
@@ -35,8 +35,8 @@ $('#icon').click(function(){
 });
 
 $(document).ready(function(){
-  $('#one').hover(function(){
-    $('#pp').show();
+  $('#one').moseenter(function(){
+    $('#pp').mouseleave();
     // $('#pp').fadeOut();
   });
 });
