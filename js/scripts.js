@@ -97,13 +97,13 @@ $('#icon').click(function(){
         $(".bn").fadeOut();
     });
 
-    // $(".bt").hide();
-    // $(".eight").hover(function(){
-    //     $(this).stop().animate({opacity:.2},200);
-    //     $(".bt").fadeIn();
-    // },function(){
-    //     $(this).stop().animate({opacity:2},500);
-    //     $(".bt").fadeOut();
-    // });
+    $(".bt").hide();
+    $(".eight").hover(function(){
+        $(this).stop().animate({opacity:.3},200);
+        $(".bt").fadeIn();
+    },function(){
+        $(this).stop().animate({opacity:3},500);
+        $(".bt").fadeOut();
+    });
 });
 
