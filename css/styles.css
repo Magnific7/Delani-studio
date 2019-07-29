@@ -36,7 +36,7 @@ body {
 }
 .message{
   background-color: transparent;
-  background-image: url("file:///home/wecode/Documents/studio%20project/images/c_image.jpg");
+  background-image: url("../images/c_image.jpg");
  justify-content: space-around;
 }
 .socials{
