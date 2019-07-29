@@ -7,12 +7,12 @@ body {
   text-align: center;
 }
 .intro{
-  background-image: url("file:///home/wecode/Documents/studio%20project/images/h_img.jpg");
+  background-image: url("../images/h_img.jpg");
   background-size: cover;
   color: white;
 }
 .services{
-  background-image: url("file:///home/wecode/Documents/studio%20project/images/s_image.jpg");
+  background-image: url("../images/s_image.jpg");
   color:white;
   background-size: cover;
 }
@@ -153,21 +153,23 @@ left: 50%;
   display: none;
 }
 .bt{
-  position: absolute;
-  bottom: 0px;
-  right: 12px;
-  background-color: black;
+   background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
-  padding-left: 0px;
-  padding-right: 0px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 90%;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
   padding: 20px;
-  height:100%;
+  text-align: center;
 
 }
 .eight{
-
+  background-color: black;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
 }
