@@ -90,10 +90,84 @@ left: 50%;
   color:white;
 }
 .ba{
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width:70%;
-  height:80%;
+  width:30%;
+  height:30%;
   position: absolute;
+  display: none;
+}
+.be{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+  position: absolute;
+  display: none;
+}
+.bi{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+  position: absolute;
+  display: none;
+}
+.bo{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+  position: absolute;
+  display: none;
+}
+.bv{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+  position: absolute;
+  display: none;
+}
+.bs{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+  position: absolute;
+  display: none;
+}
+.bn{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+  position: absolute;
+  display: none;
+}
+.bt{
+  position: absolute;
+  bottom: 0px;
+  right: 12px;
+  background-color: black;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 90%;
+  padding: 20px;
+  height:100%;
+
+}
+.eight{
+
 }

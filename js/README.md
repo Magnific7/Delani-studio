@@ -1,4 +1,4 @@
-# Akan name
+# Delani Studio
 
 ## Description
 ### What we do descriptions.
